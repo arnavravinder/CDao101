@@ -4,7 +4,7 @@ Certainly! Here's the revised README.md with emojis and the changelog updated fo
 
 # CityDAO 101 🏙️
 
-Visit the CityDAO 101 website: [citydao101.web.app](https://citydao101.web.app)
+Visit the CityDAO 101 website: [https://citydao101.netlify.app/](https://citydao101.netlify.app/)
 
 ## Objective 🌐✨
 
