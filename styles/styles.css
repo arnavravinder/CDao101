@@ -404,3 +404,71 @@ body{
 .collapsible__content{
     display: none;
 }
+
+@media screen and (max-width: 785px) {
+    .navbar .join-us{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar .grid-2x1{
+        width: 100%;
+        justify-items: center;
+    }
+    .collapsible__content .navbar-list-item{
+        display: block;
+        text-align: center;
+        border-bottom: 2px solid grey;
+        font-size: 1rem;
+        margin-bottom: 7px;
+        margin-right: 6.25%;
+    }
+    .nav__toggler{
+        display: inline-block;
+    }
+    .navbar-list{
+        display: none;
+    }
+    .collapsible__content{
+        display: block;
+        width: 100%;
+    }
+    .content .heading{
+        width: 15ch;
+    }
+    .about-us-image{
+        display: none;
+    }
+    .about-us-grid{
+        grid-template-columns: auto;
+    }
+    .navbar-list{
+        background-color: rgb(17, 19, 19);
+    }
+    .mission-grid{
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+        row-gap: 50px;
+    }
+    .resources .heading{
+        width: 15ch;
+        text-align: center;
+    }
+    .resources .sub-heading{
+        width: 30ch;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 645px) {
+    .content .heading{
+        width: 10ch;
+        margin-top:0;
+    }
+    .mission-box .headings .sub-heading{
+        /* width: 50ch; */
+    }
+}
